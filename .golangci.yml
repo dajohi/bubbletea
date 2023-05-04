@@ -14,9 +14,11 @@ issues:
 
 linters:
   enable:
+    - makezero 
     - bodyclose
     - exportloopref
     - goimports
+    - govet 
     - gosec
     - nilerr
     - predeclared
